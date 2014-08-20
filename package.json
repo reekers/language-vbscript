@@ -1,14 +1,15 @@
 {
   "name": "language-vbscript",
   "main": "./lib/language-vbscript",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "VBScript/VBA syntax highlighting",
-  "activationEvents": ["language-vbscript:toggle"],
+  "activationEvents": [
+    "language-vbscript:toggle"
+  ],
   "repository": "https://github.com/reekers/language-vbscript",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
