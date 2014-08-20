@@ -1,0 +1,3 @@
+'.source.vbs':
+  'editor':
+    'foldEndPattern': '(?i)^\\s*End (Class|Function|Sub|Property)\\s*$'

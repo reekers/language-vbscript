@@ -1,0 +1,13 @@
+'.source.vbs':
+  '<%= %>':
+    'prefix': '='
+    'body': '<%= $0 %>'
+  'For … in … Next':
+    'prefix': 'forin'
+    'body': 'For ${1:var} in ${2:array}\n\t${3:\' body}\nNext'
+  'If … End if':
+    'prefix': 'ifelse'
+    'body': 'If ${1:condition} Then\n\t${2:\' true}\nElse\n\t${3:\' false}\nEnd if'
+  'While … Wend':
+    'prefix': 'while'
+    'body': 'While ${1:NOT ${2:condition}}\n\t${3:\' body}\nWend'
