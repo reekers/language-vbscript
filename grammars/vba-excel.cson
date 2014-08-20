@@ -1,0 +1,15 @@
+'fileTypes': [
+  'vbs',
+  'vba'
+]
+'name': 'VBA Excel'
+'patterns': [
+  {
+    'match': '(?i:\\b(Excel|Range|Column|Sheet)([s]|\\b)\\b)'
+    'name': 'support.class.vbs'
+  }
+  {
+        'include': 'source.vbs'
+  }
+]
+'scopeName': '.text.vbs.excel'
