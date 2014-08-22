@@ -1,7 +1,7 @@
 {
   "name": "language-vbscript",
   "main": "./lib/language-vbscript",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "VBScript/VBA syntax highlighting",
   "activationEvents": [
     "language-vbscript:toggle"
