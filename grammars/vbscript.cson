@@ -136,5 +136,8 @@
     'match': '(?-i)\\b[A-Z(_)]+\\b'
     'name': 'constant.caps.vbs'
   }
+  {
+    'include': 'text.html.basic'
+  }
 ]
 'scopeName': 'source.vbs'
