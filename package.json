@@ -1,7 +1,7 @@
 {
   "name": "language-vbscript",
   "main": "./lib/language-vbscript",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "VBScript/VBA syntax highlighting",
   "repository": "https://github.com/reekers/language-vbscript",
   "license": "MIT",
