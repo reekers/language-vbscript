@@ -1,3 +1,4 @@
 '.source.vbs':
   'editor':
+    'commentStart': "' "
     'foldEndPattern': '(?i)^\\s*End (Class|Function|Sub|Property)\\s*$'
