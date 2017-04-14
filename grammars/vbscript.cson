@@ -3,7 +3,10 @@
   'asp',
   'vbs',
   'vb',
-  'vba'
+  'vba',
+  'bas',
+  'frm',
+  'cls'
 ]
 'name': 'VBScript'
 'patterns': [
