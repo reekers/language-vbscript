@@ -4,3 +4,4 @@
 - added support for all caps constants
 ## 0.4.0 - added support for html-base
 updated for atom 1.0
+## 0.8.0 - Added filetypes
