@@ -11,3 +11,21 @@
   'While … Wend':
     'prefix': 'while'
     'body': 'While ${1:NOT ${2:condition}}\n\t${3:\' body}\nWend'
+  'Sub … End Sub':
+    'prefix': 'sub'
+    'body': 'Sub ${1}(${2})\n  ${3}\nEnd Sub'
+  'Dim':
+    'prefix': 'dim'
+    'body': 'Dim ${1} As ${2}'
+  'Dim … as String':
+    'prefix': 'dims'
+    'body': 'Dim ${1} As String'
+  'Dim … as Integer':
+    'prefix': 'dimi'
+    'body': 'Dim ${1} As Integer'
+  'If … Then … End If':
+    'prefix': 'if'
+    'body': 'If ${1} Then\n  ${2}\nEnd If'
+  'If … Then … Else … End If':
+    'prefix': 'ife'
+    'body': 'If ${1} Then\n  ${2}\nElse ${3}\n  \nEnd If'
